@@ -4,20 +4,11 @@
 3.设置训练网络
 4.测试
 """
-import csv
-import math
-import os
+
 import generateDatas
-from torch.utils.data import Dataset,DataLoader
-from torchvision import transforms
-from torch import nn
-import torch
-import matplotlib.pyplot as plt
-from typing import List
-import math
 import subprocess
-import train
 from MyClass import MetaData
+
 paras=MetaData()
 
 # 生成数据

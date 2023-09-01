@@ -1,6 +1,4 @@
 import csv
-import random
-import torch
 import shutil
 import os
 import numpy as np
